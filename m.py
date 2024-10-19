@@ -125,7 +125,7 @@ def remove_user(message):
             response = '''Please Specify A User ID to Remove. 
 ✅ Usage: /remove <userid>'''
     else:
-        response = "Sorry Only Admin Can Run This Command ."
+        response = "Sorry Only ITACHI Can Run This Command ."
 
     bot.reply_to(message, response)
 
@@ -205,7 +205,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"{username}, ATTACK ACTIVA.✅\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: ITACHI KING"
+    response = f"{username}, ATTACK ACTIVA.✅\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: BLACK  X ITACHI PAPA"
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /bgmi command
@@ -245,7 +245,7 @@ def handle_bgmi(message):
         else:
             response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
     else:
-        response = "🚨 ❌ FREE NAHI HAI BRO PIAD BUY KARO @Xteam_xyz ❌🚨."
+        response = "TARA BAAP ITACHI HAI ."
 
     bot.reply_to(message, response)
 
@@ -267,7 +267,7 @@ def show_command_logs(message):
         except FileNotFoundError:
             response = "No command logs found."
     else:
-        response = "TERE BAAP KA NAHI H BOT BSDK 🤣😀."
+        response = "TERE BAAP KA NAHI H BOT BSDK ITACHI KO PAPA BOL PAHLE 🤣😀."
 
     bot.reply_to(message, response)
 
@@ -283,7 +283,7 @@ def show_help(message):
 🤖 To See Admin Commands:
 /admincmd : Shows All Admin Commands.
 
-SERVER ATTACK RAJPUT MODDER
+SERVER ATTACK ITACHI
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -298,7 +298,7 @@ SERVER ATTACK RAJPUT MODDER
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
     user_name = message.from_user.first_name
-    response = f'''😈Welcome to The Bot😈, BUY PIAD BOT @XTEAM_XYZ '''
+    response = f'''😈Welcome to The Bot JOIN NOW 😈, https://t.me/+DnwnDb2e1lUzNGE1 '''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
@@ -317,8 +317,8 @@ def welcome_plan(message):
     response = f'''{user_name}, Brother Only 1 Plan Is Powerfull Then Any Other Ddos !!:
 
 Vip 🌟 :
--> Attack Time : 180 240 300(S)
-> After Attack Limit : 3 4 5Min
+-> Attack Time : 540 840 (S)
+> After Attack Limit : 10  15Min
 -> Concurrents Attack : 15
 '''
     bot.reply_to(message, response)
@@ -356,7 +356,7 @@ def broadcast_message(message):
         else:
             response = "Please Provide A Message To Broadcast."
     else:
-        response = "❌ FREE WLA NAHI HAI BHIA PIAD BUY KARO @Xteam_xyz ."
+        response = "❌ TERE BAAP ANIKET HAI NA ❌."
 
     bot.reply_to(message, response)
 
